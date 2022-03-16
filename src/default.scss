@@ -9,6 +9,13 @@ body {
   margin: 0;
 }
 
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
 *,
 ::before,
 ::after {
@@ -32,4 +39,11 @@ a:hover {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transtion: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+.main {
+  width: 100%;
+  height: calc(100% - 6.5rem);
+  max-width: 1450px;
+  padding: 0 10px;
 }
