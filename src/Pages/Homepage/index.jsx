@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Directory from './../../Components/Directory';
 function index() {
   return (
     <section>
-      <h1>My Homepage</h1>
+      <Directory />
     </section>
   );
 }
